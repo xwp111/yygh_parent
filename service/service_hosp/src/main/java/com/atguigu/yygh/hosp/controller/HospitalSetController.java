@@ -25,6 +25,7 @@ import java.util.Random;
 @Api(tags = "医院设置管理")  //swagger页面显示信息
 @RestController
 @RequestMapping("/admin/hosp/hospitalSet")
+@CrossOrigin
 public class HospitalSetController {
     //注入service
     @Autowired
