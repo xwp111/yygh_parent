@@ -6,6 +6,9 @@
         <module>common</module>
         <module>model</module>
         <module>service</module>
+        <module>hospital-manage</module>
+        <module>service_client</module>
+        <module>service_gateway</module>
     </modules>
     <!--    <modules>-->
 <!--        <module>common</module>-->
