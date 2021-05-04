@@ -26,5 +26,8 @@ public interface DepartmentService {
     List<DepartmentVo> findDepTree(String hoscode);
 
     //根据医院编号和科室编号查询科室名称
-    Object getDepName(String hoscode, String depcode);
+    String getDepName(String hoscode, String depcode);
+
+    //根据医院编号和科室编号查询科室
+    Department getDepartment(String hoscode, String depcode);
 }
