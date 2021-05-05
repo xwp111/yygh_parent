@@ -9,6 +9,8 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/rabbit_util/pom.xml" />
+        <option value="$PROJECT_DIR$/service/service-statistics/pom.xml" />
+        <option value="$PROJECT_DIR$/service_client/service-order-client/pom.xml" />
         <option value="$PROJECT_DIR$/service_order/pom.xml" />
       </set>
     </option>

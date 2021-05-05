@@ -50,7 +50,7 @@ public class OrderInfo extends BaseEntity {
 	private String depname;
 
 	@ApiModelProperty(value = "排班id")
-	@TableField("schedule_id")
+	@TableField("schedule_id")  //对应数据库添加一个schedule_id字段
 //	@TableField("hos_schedule_id")
 	private String scheduleId;
 
